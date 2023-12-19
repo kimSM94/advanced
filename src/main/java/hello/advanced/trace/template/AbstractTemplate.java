@@ -4,10 +4,10 @@ package hello.advanced.trace.template;
 import hello.advanced.trace.TraceStatus;
 import hello.advanced.trace.logtrace.LogTrace;
 
-public abstract class AbstartTemplate<T> {
+public abstract class AbstractTemplate<T> {
     private final LogTrace trace;
 
-    public AbstartTemplate(LogTrace trace) {
+    public AbstractTemplate(LogTrace trace) {
         this.trace = trace;
     }
 
